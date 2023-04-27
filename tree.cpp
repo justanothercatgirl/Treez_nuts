@@ -6,6 +6,9 @@
 #include <queue>
 #include <stack>
  
+namespace Trees
+{
+
 template <typename T>
 struct TreeNode
 {
@@ -94,5 +97,7 @@ Tree<T> construct(std::vector<T> &arr)
     return ret;
 }
  
+
+} //namnespace trees
 
 #endif //TREE_JSCTGRL_CPP
